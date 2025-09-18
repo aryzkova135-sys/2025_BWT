@@ -1,1 +1,10 @@
-<p> превет медвед </p>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>превет медвед ) </title>
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="Моё тестовое изображение" />
+  </body>
+</html>
