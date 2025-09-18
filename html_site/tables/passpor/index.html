@@ -3,41 +3,76 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Паспорт</title>
+    <title>passport</title>
 </head>
 
 <body>
-        <table align="left" cellspacing="0" cellpadding="10" border="1" width="700px"
-        <tr><td height="200px" colspan="4" align="center" valign="top">
-                    РОССИЙСКАЯ ФЕДЕРАЦИЯ</tr>
-          <tr>
-                <td height="200px" colspan="3" align="left" valign="top">
+    <table align="left" cellspacing="0" cellpadding="10" border="1" width="720px" height="846px"
+        background="./a0eb74f0e72999e2f320eda50ee9d4a5.jpg" <tr>
+        <td height="40px" colspan="4" align="center" valign="top">
+            РОССИЙСКАЯ ФЕДЕРАЦИЯ</tr>
+            <tr>
+                <td height="50px" colspan="3" align="left" valign="top">
                     Паспорт выдан МВД РФ
-                    <td height="200px">
+                <td height="50px">
                     4444 4444
                 </td>
             </tr>
             <tr>
-                <td align="left" height="200px">
+                <td align="left" height="100px">
                     Дата выдачи
-                    <span>19.03.2020</span>
+                    <span id="date">19.03.2020</span>
                 </td>
-                <td height="200px">
+                <td height="100px">
                     Код подразделения
-                    <span>123</span>
-                    <td height="200px">
-                    
-                <td height="200px">
+                    <span id="code1">123</span>
+                <td height="100px">
+                <td height="100px">
                     4444 4444
                 </td>
             </tr>
 
-             <tr>
+            <tr>
                 <td height="200px" colspan="3" align="right">
-                    <span>123</span><br>Личный код
+                    <span id="code2">123</span><br>Личный код
+                    <br> <span id="signature">*подпись*</span>
+                    <br> Личная подпись
                 <td height="200px">
                     4444 4444
             </tr>
-        </table>
+            <tr>
+                <td rowspan="5" width="220px" align="right" valign="bottom">
+                    <img src="./passport.JPG" width="200">
+                </td>
+                <td height="100px" colspan="3" align="left">
+                    Фамилия <span id="surname">Носкова</span>
+                </td>
+            </tr>
+            <tr>
+                <td height="20px" colspan="3" align="left">
+                    Имя <span id="name">Анфиса</span>
+                </td>
+            </tr>
+            <tr>
+                <td height="20px" colspan="3" align="left">
+                    Отчество <span id="father's name">Михайловна</span>
+                </td>
+            </tr>
+            <tr>
+                <td height="20px" align="left">
+                    Пол <span id="sex">ЖЕН</span>
+                </td>
+                <td height="20px" align="left">
+                    Дата рождения <span id="date of birth">21.12.2006</span>
+                </td>
+            </tr>
+            <tr>
+                <td height="100px" colspan="3" align="left" Место рождения <span id="place of birth">Москва</span>
+                </td>
+            </tr>
 
-        <pre>
+    </table>
+    <input id="for_click" type="Submit" name="Submit" value="изменить">
+</body>
+    <script src="./tmp.js"></script>
+</html>
