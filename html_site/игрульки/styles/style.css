@@ -20,3 +20,10 @@ li {
 html {
   background-color: #rgb(73 98 156);
 }
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #a16372;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
