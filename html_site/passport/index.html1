@@ -5,7 +5,7 @@
         </td>
     </tr>
     <tr>
-        <td align="left" valign="top" height="80px" colspan2>
+        <td align="left" valign="bottom" height="80px" colspan2>
             Паспорт выдан <span id="vydan"> РУВД</span>
         </td>
     </tr>
