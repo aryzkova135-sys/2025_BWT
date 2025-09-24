@@ -6,7 +6,7 @@ function updateNames() {
     nameNode.innerHTML = "Anastasia";
 
     const fathernameNode = document.getElementById('fathername');
-    nameNode.innerHTML = "Ivanovna";
+    fathernameNode.innerHTML = "Ivanovna"; // Corrected line
 }
 
 const node_for_click = document.getElementById("for_click");
