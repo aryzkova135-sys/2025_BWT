@@ -5,7 +5,7 @@ function updateNames() {
     const nameNode = document.getElementById('name');
     nameNode.innerHTML = "Anastasia";
 
-    const nameNode = document.getElementById('fathername');
+    const fathernameNode = document.getElementById('fathername');
     nameNode.innerHTML = "Ivanovna";
 }
 
