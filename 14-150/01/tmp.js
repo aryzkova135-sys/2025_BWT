@@ -1,12 +1,12 @@
 function updateNames() {
-    const surnameNode = document.getElementById('surname');
-    surnameNode.innerHTML = "Ryzhkova";
+    const name1Node = document.getElementById('name1');
+    name1Node.innerHTML = "Ryzhkova";
 
-    const nameNode = document.getElementById('name');
-    nameNode.innerHTML = "Anastasia";
+    const name2Node = document.getElementById('name2');
+    name2Node.innerHTML = "Anastasia";
 
-    const fathernameNode = document.getElementById('fathername');
-    fathernameNode.innerHTML = "Ivanovna"; // Corrected line
+    const name3Node = document.getElementById('name3');
+    name3Node.innerHTML = "Ivanovna"; // Corrected line
 }
 
 const node_for_click = document.getElementById("for_click");
