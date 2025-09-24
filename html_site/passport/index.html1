@@ -1,0 +1,37 @@
+<table border=1 width="900" height="">
+    <tr> 
+        <td align="center" height="40px" colspan2>
+            Российская Федерация
+        </td>
+    </tr>
+    <tr>
+        <td align="left" valign="top" height="80px" colspan2>
+            Паспорт выдан <span id="vydan"> РУВД</span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Дата выдачи <span id="date"> 01.01.0000</span>
+        </td>
+        <td>
+            Код подразделения <span id="code">110.100</span>
+        </td>
+    </tr>
+<tr><td align="right" valign="top" height="100px" colspan="2">
+    <hr><br>
+    Личный код
+</td></tr>
+    <tr>
+
+<td>
+    Подпись сотрудника полиции
+</td>
+<td>
+
+</td>
+    </tr>
+    <tr>
+        <td align="right" colspan="3"></td>
+    </tr>
+
+</table>
