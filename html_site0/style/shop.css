@@ -4,7 +4,42 @@
     align-items: center; /* вертикальное центрирование (по необходимости) */
     min-height: 100vh; /* чтобы растянуть на всю высоту окна */
     flex-direction: column; /* если нужно вертикальное расположение */
-  }
-    body {
-      background-color: #a4bffe;
-    }    
+    background-color: #a4bffe;
+ }
+/* Стили для изображений внутри элементов */
+.gallery-item img {
+    max-width: 100%; /* Картинка не будет шире родительского контейнера */
+    height: auto; /* Сохранение пропорций */
+    display: block;
+}
+
+/* Стили для описания */
+.description {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+.gallery-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s; /* Анимация для эффекта наведения */
+    max-width: 250px; /* Максимальная ширина каждого элемента */
+    text-align: center;
+}
+
+/* Эффект наведения мыши */
+.gallery-item:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+/* Стили для контейнера галереи */
+.gallery {
+    display: flex; /* Использование Flexbox */
+    flex-wrap: wrap; /* Перенос элементов на новую строку */
+    justify-content: center; /* Центрирование элементов по горизонтали */
+    gap: 15px; /* Отступ между элементами */
+}
+
+
