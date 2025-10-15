@@ -1,5 +1,4 @@
  body {
-    background-color: #7EA1B4
     display: flex;
     justify-content: center; /* горизонтальное центрирование */
     align-items: center; /* вертикальное центрирование (по необходимости) */
