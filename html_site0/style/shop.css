@@ -1,13 +1,11 @@
  body {
+    background-color: #7EA1B4
     display: flex;
     justify-content: center; /* горизонтальное центрирование */
     align-items: center; /* вертикальное центрирование (по необходимости) */
     min-height: 100vh; /* чтобы растянуть на всю высоту окна */
     flex-direction: column; /* если нужно вертикальное расположение */
  }
-body {
-  background-color: #7EA1B4;
-}
 /* Стили для изображений внутри элементов */
 .gallery-item img {
     max-width: 100%; /* Картинка не будет шире родительского контейнера */
