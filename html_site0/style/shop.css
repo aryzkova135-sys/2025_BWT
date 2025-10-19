@@ -6,10 +6,9 @@
     flex-direction: column; /* если нужно вертикальное расположение */
    background: #7EB4AC;
    font-family:  'Viaoda Libre', Static;
-   font-size: 3em;
  }
-company-description {
- font-size: 2em;
+.company-name{
+ font-size: 3em;
 }
 /* Стили для изображений внутри элементов */
 .gallery-item img {
