@@ -23,7 +23,9 @@
     color: #000000;
 }
 .img_shop{
-  max-width: 100%;
+   max-width: 100%; /* Картинка не будет шире родительского контейнера */
+    height: auto; /* Сохранение пропорций */
+    display: block;
 }
 .gallery-item {
     border: 1px solid #ccc;
