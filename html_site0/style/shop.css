@@ -19,13 +19,13 @@
 /* Стили для описания */
 .description {
     padding: 10px 0;
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
 }
 .gallery-item {
     border: 1px solid #ccc;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: gray;
     transition: transform 0.3s; /* Анимация для эффекта наведения */
     max-width: 250px; /* Максимальная ширина каждого элемента */
     text-align: center;
