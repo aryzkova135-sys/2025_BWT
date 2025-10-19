@@ -43,14 +43,12 @@
     gap: 15px; /* Отступ между элементами */
 }
 .float-right {
-  float: right;
+  margin-left: auto; /* Сдвигает элемент вправо */
   margin-top: 20px;
   margin-right: 30px;
   margin-bottom: 20px;
-  margin-left: 30px;
-  max-width: 300px;
+  /* ...остальные стили... */
 }
-
 
 
 
