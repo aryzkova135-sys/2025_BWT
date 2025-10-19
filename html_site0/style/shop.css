@@ -51,7 +51,7 @@
     display: block; /* Помогает избежать нежелательных отступов */
 }
 .container {
-  display: flex;
+  display: block;
   justify-content: center; /* горизонтальное центрирование */
   align-items: flex-end;   /* вертикальное расположение внизу */
   height: 150px;           /* задайте высоту контейнера */
