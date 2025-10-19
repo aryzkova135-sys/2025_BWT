@@ -46,9 +46,11 @@
   font-size: 2em;
 }
 .about_us1{
-    max-width: 50%; /* Картинка не будет шире родительского контейнера */
-    height: auto; /* Высота будет автоматически подстраиваться */
-    display: block; /* Помогает избежать нежелательных отступов */
+   margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  max-width: 300px;
 }
 
 
