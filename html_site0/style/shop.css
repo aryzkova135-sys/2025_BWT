@@ -11,7 +11,7 @@
  font-size: 3em;
 }
 /* Стили для изображений внутри элементов */
-.gallery-item img, img_shop1 {
+.gallery-item img{
     max-width: 100%; /* Картинка не будет шире родительского контейнера */
     height: auto; /* Сохранение пропорций */
     display: block;
@@ -41,6 +41,14 @@
     flex-wrap: wrap; /* Перенос элементов на новую строку */
     justify-content: center; /* Центрирование элементов по горизонтали */
     gap: 15px; /* Отступ между элементами */
+}
+.float-right {
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  max-width: 300px;
 }
 
 
