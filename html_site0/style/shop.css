@@ -7,6 +7,11 @@
    background: #7EB4AC;
    font-family:  'Viaoda Libre', Static;
  }
+.img_shop{
+   max-width: 100%; /* Картинка не будет шире родительского контейнера */
+    height: auto; /* Сохранение пропорций */
+    display: block;
+}
 .company-name {
  font-size: 3em;
 }
@@ -21,11 +26,6 @@
     padding: 10px 0;
     font-size: 14px;
     color: #000000;
-}
-.img_shop{
-   max-width: 100%; /* Картинка не будет шире родительского контейнера */
-    height: auto; /* Сохранение пропорций */
-    display: block;
 }
 .gallery-item {
     border: 1px solid #ccc;
