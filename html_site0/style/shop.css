@@ -25,7 +25,7 @@
 .gallery-item {
     border: 1px solid #ccc;
     padding: 10px;
-    box-shadow: gray;
+    box-shadow: 2px 2px 5px gray;
     transition: transform 0.3s; /* Анимация для эффекта наведения */
     max-width: 250px; /* Максимальная ширина каждого элемента */
     text-align: center;
@@ -46,7 +46,7 @@
   font-size: 2em;
 }
 .about_us1{
-    max-width: 100%; /* Картинка не будет шире родительского контейнера */
+    max-width: 70%; /* Картинка не будет шире родительского контейнера */
     height: auto; /* Высота будет автоматически подстраиваться */
     display: block; /* Помогает избежать нежелательных отступов */
 }
