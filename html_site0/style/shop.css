@@ -22,6 +22,9 @@
     font-size: 14px;
     color: #000000;
 }
+.img_shop{
+  max-width: 100%;
+}
 .gallery-item {
     border: 1px solid #ccc;
     padding: 10px;
