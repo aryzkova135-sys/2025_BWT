@@ -33,7 +33,7 @@
 /* Эффект наведения мыши */
 .gallery-item:hover {
     transform: scale(1.05); /* Увеличение при наведении */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: gray;
 }
 /* Стили для контейнера галереи */
 .gallery {
