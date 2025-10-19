@@ -6,7 +6,7 @@
     flex-direction: column; /* если нужно вертикальное расположение */
    background: #7EB4AC;
    font-family:  'Viaoda Libre', Static;
-   font-size: 3em;
+   font-size: 2.5em;
  }
 /* Стили для изображений внутри элементов */
 .gallery-item img {
