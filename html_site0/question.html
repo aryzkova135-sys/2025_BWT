@@ -1,41 +1,71 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+
 <head>
-<title>Алгоритмическая задача</title>
-<form id="containerForm">
-        <label>М: <input type="number" id="M" required></label><br><br>
-        <label>А: <input type="number" id="A" required></label><br><br>
-        <label>Н: <input type="number" id="N" required></label><br><br>
-        <label>R: <input type="number" id="R" required></label><br><br>
-        <button type="button" onclick="checkCapacity()">Проверить</button>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>Главная</b></a></li>
+            <li><a href="passport.html">Паспорт</a></li>
+            <li><a href="rename.html">Изменяем кириллицу на латиницу</a></li>
+            <li><a href="task.html">Решение задачи</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h1>Задача: Заполнение ёмкостей жидкостью</h1>
+    <p name='formulation'>
+        Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R. Определить,
+        можно ли заполнить жидкостью объёма M первую ёмкость, вторую, обе.
+    </p>
+
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <ul>
+            <li>
+                Для поисковика:
+                <input name="q" value="search">
+            <li>
+                Формулировка задачи:
+                <br>
+                <textarea cols="60" rows="4" id="task" name="formulation">
+                </textarea>
+            </li>
+            <li>
+                A:
+                <input id="a" name="a" type="number" value="">
+            </li>
+            <li>
+                H:
+                <input id="h" name="h" type="number" value="">
+            </li>
+            <li>
+                R:
+                <input id="r" name="r" type="number" value="">
+            </li>
+            <li>
+                M:
+                <input id="m" name="m" type="number" value="">
+            </li>
+            <li>
+                Результат решения задачи:
+                <input id="result" name="result" value="">
+            </li>
+            <li>
+                Действие 1:
+                <input id="verify" name="button" value="Проверить">
+            </li>
+            <li>
+                Действие 2:
+                <input id="send" type="submit" value="Отправить">
+            </li>
+        </ul>
     </form>
-    <p id="result"></p>
-
-    <script>
-        function checkCapacity() {
-            // Получение значений из формы
-            const M = parseFloat(document.getElementById('M').value);
-            const A = parseFloat(document.getElementById('A').value);
-            const N = parseFloat(document.getElementById('N').value);
-            const R = parseFloat(document.getElementById('R').value);
-            
-            // Вычисление объемов
-            const volumeCube = Math.pow(A, 3);
-            const volumeCylinder = N * Math.PI * Math.pow(R, 2);
-            
-            // Проверка условий
-            let message = '';
-            if (M <= volumeCube) {
-                message = 'М помещается в первую.';
-            } else if (M <= volumeCylinder) {
-                message = 'М помещается во вторую.';
-            } else {
-                message = 'М не помещается ни в первую, ни во вторую.';
-            }
-
-            // Вывод результата
-            document.getElementById('result').textContent = message;
-        }
-    </script>
+    <script src="task.js"></script>
 </body>
+
 </html>
