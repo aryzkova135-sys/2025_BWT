@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Алгоритмическая задача</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+#container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+  <h1>Решение алгоритмической задачи</h1>
+  <label for="a">Введите значение A:</label>
+   <label for="a">Введите значение B:</label>
+  <input type="number" id="a" value="0"><br><br>
+  <button onclick="calculateX()">Вычислить результат</button><br><br>
+  <p>Результат: <span id="result"></span></p>
+</div>
+
+<script>
+function calculateX() {
+  let a = parseFloat(document.getElementById("a").value);
+  let x;
+
+  if (isNaN(a)) {
+    document.getElementById("result").textContent = "Ошибка: Введите числовое значение для A.";
+    return;
+  }
+
+
+  if (a < 62) {
+    x = a**2 + 4 + 5;
+  } else {
+    x = 1/(a**2) + 4*a + 5;
+  }
+
+  document.getElementById("result").textContent = x;
+}
+</script>
+
+</body>
+</html>
