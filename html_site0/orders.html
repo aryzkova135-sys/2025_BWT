@@ -21,25 +21,31 @@
                 </header>
                 <main> 
                   <div> Оформление заказа </div>
-                    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-                    <p>Оставьте свои данные, а мы с Вами свяжемся!:<input type="hidden"  name="q" value="search"></p>
-
-           <p> <label for="name">Имя:</label>
+                    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">  
+                      <!-- Это однострочный комментарий -->
+                    <p>Оставьте свои данные, а мы с Вами свяжемся!:
+                      <input type="hidden"  name="q" value="search"></p> <!--???--> 
+                     <!-- Это однострочный комментарий -->
+           <p> <label for="name">Имя:</label> <!-- label - поле для ввода -->
             <input type="text" id="name" name="name" value="Анастасия" required> </p>
-            
+           <!-- name="name" — имя, по которому значение этого поля будет отправлено на сервер. -->
+                      
            <p> <label for="surname">Фамилия:</label>
             <input type="text" id="surname" name="surname" value="Рыжкова" required> </p>
+                      
             <p> <label for="phone">Мобильный телефон:</label>
                 <input type="tel" id="phone" name="phone" value="+7 123 456 78 90" required> </p>
-                
+                      
                 <p> <label for="email">Электронная почта:</label>
                 <input type="email" id="email" name="email" value="example@example.com" required> </p>
-                <p> <label>Подписаться на нашу рассылку</label>
-                    <input type="radio" id="option1" name="preference" value="option1" checked>
+                      
+                <p> <label>Подписаться на нашу рассылку</label> <!-- заголовок вопроса -->
+                    <input type="radio" id="option1" name="preference" value="option1" checked> <!-- checked - выбрана по умолчанию -->
+                   <!--это элемент <input> типа radio, который позволяет пользователю выбрать один вариант из группы предопределенных опций -->
                     <label for="option1">Да</label>
                     <input type="radio" id="option2" name="preference" value="option2">
                     <label for="option2">Нет</label></p>
-                    <p> <input type="hidden" name="source" value="contact_form">
+                    <p> <input type="hidden" name="source" value="contact_form"> <!--???--> 
                         <input type="submit" value="Отправить"> </p>
                 </main>
                 </body>
