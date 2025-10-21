@@ -12,13 +12,15 @@
   <h3 align="center">Наши контакты</h3> <!-- заголовок третьего уровня -->
 
   <table align="center" cellspacing="0" cellpadding="10" border="1" width="700px"
-    background="background.png">
+    background="background.png"> <!-- cellspacing - расстояние между внешними границами ячеек, сейчас границы ячеек просто линия
+    cellpadding - внутренние отступы внутри ячеек border - толщина рамки width - общая ширина таблицы-->
 
-    <tr>
-      <td colspan="3" background="background.png" height="50px">
+    <tr> <!-- tr - строка -->
+      <td colspan="3" background="background.png" height="50px"> <!-- данные внутри таблицы, здесь - фон
+        colspan объединяет ячейки таблицы по горизонтали, указывая, сколько столбцов должна занимать одна ячейка-->
         Словоткань
       </td>
-      <td rowspan="3"></td>
+      <td rowspan="3"></td> <!-- объединяет ячейку по вертикали -->
     </tr>
 
 
@@ -27,7 +29,7 @@
         Наш магазин
       </td>
 
-      <td width="300px" background="">
+      <td width="300px">
         <img src="bookshop.jpeg" width="250">
       </td>
 
@@ -38,10 +40,10 @@
 
 
     <tr>
-      <td align=right valign=top  colspan="3" height="100px">
+      <td align=right valign=top  colspan="3" height="100px"> <!-- valign - вертикальное выравнивание содержимого ячейки -->
         Ждем Вашей обратной связи!
       </td>
     </tr>
   </table>
 
-  <pre>
+  <pre> <!-- HTML-элемент <pre> представляет собой предварительно отформатированный текст, который должен быть представлен точно так, как написано в HTML-файле.-->
